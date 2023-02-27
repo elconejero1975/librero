@@ -1,6 +1,6 @@
-# monjecopista
-El viejo monje copista, que se pasaba horas de horas copiando libros en la abadía preservando el conocimiento
+# librero
+El librero de libros viejos 
 
 ```
-pandoc --metadata title="Las Musas y el origen divino del canto y del habla" -s -o output.xhtml content.md
+pandoc --toc -s content.md -o content.xhtml
 ```
